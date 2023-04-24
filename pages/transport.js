@@ -34,24 +34,21 @@ export default function Transport() {
         <section className='section-presentation' style={{backgroundImage: `url(`+Camion.src+`)`, }}>
 		    <div className='h-full flex items-center justify-center'>
 		      	<div className="text-center">
-              	    <h1 className='md:text-8xl text-4xl text-cyan-600 lora'>TRANSPORT</h1>
+              	    <h1 className='md:text-8xl text-4xl font-semibold color-logo'>TRANSPORT</h1>
 		      	    <h2 className='md:text-4xl text-2xl text-white'>La clé d'un transport réussi</h2>
 		      	</div>
 		    </div>
         </section>
-        <div className="lg:grid lg:grid-cols-2 max-w-screen-xl mb-3 md:mb-0 mx-7 mt-14 lg:mx-10 xl:mx-auto">
+        <div className="lg:grid lg:grid-cols-2 max-w-screen-xl mb-3 md:mb-0 mx-7 mt-14 lg:mx-10 xl:mx-auto flex items-center">
 	  	    <div className="  text-md md:text-lg lg:px-7">
-	  	    	<h2 className=" text-xl md:text-2xl  font-bold mb-4">TRANSPORT REGULIER</h2>
+	  	    	<h2 className=" text-xl md:text-2xl  font-bold mb-4">TRANSPORT STANDARD</h2>
 	  	    	{/* <p className="text-center font-bold">Partenaire de confiance pour tous transports de marchandise !</p> */}
-		    	<p> 
-                    Besoin de programmer des transports de marchandises de manière journalière, hebdomadaire ou mensuelle? Afin de gagner en sérénité, confiez à Road Runners la réalisation de ces transport en toute sécurité et fiabilité !   
-		    	</p>
-		    	<p className='mt-2'> 
-		    	  	Road Runners assure vos courses régulières, vous pouvez planifier la réalisation de vos transports qui seront réalisés par des Runners compétents qui prendront en charge vos marchandises à l'heure et la date définit.
-		    	</p>
-		    	<p className='mt-2'> 
-		    	  	Road Runners assure un service de qualité à ses collaborateurs en garantissant l'optimisation de la gestion de leurs transports dans toute la France !
-		    	</p>
+		    	<p className='pt-2'> 
+          Besoin de programmer des transports de marchandises de manière journalière, hebdomadaire ou mensuelle?
+          </p>
+		    	<p className='pt-1'> 
+          Afin de gagner en sérénité, confiez à notre équipe expérimentée la prise en charge de vos expéditions et  bénéficiez d’une solution de transport sur mesure pour planifier l’envoi de vos marchandises en toute sécurité.
+          </p>
 	  	    </div>
 	      	<div className="hidden lg:flex items-center  xl:px-7">
               <Image
@@ -77,15 +74,12 @@ export default function Transport() {
             <div className='flex items-center'>
 	  	        <div className="  text-md md:text-lg lg:px-7">
 	  	        	<h2 className=" text-xl md:text-2xl  font-bold mb-4">TRANSPORT EXPRESS</h2>
-		        	<p> 
-                        Besoin d'un transport urgent et sécurisé de marchandise ? Vous êtes professionnel ou particulier? Nos runners répondent à la prise en charge et à l'acheminement express de vos marchandise. 
-		        	</p>
-		        	<p className='mt-2'> 
-		        	  	Pour un besoin de dernière minute, vous pouvez compter sur Road Express afin d'opérer un transport de qualité, rapide et sécure, en béneficiant de la même qualité logistique qu'un transport programmé.
-		        	</p>
-		        	<p className='mt-2'> 
-		        	  	Road Runners certifie un service de qualité à ses collaborateurs en garantissant l'optimisation de la gestion de leurs transports express dans toute la France !
-		        	</p>
+		        	<p className='pt-2'> 
+              Besoin d'un transport urgent et sécurisé de marchandise ? Vous êtes professionnel ou particulier?
+               </p>
+		        	<p className='pt-1'> 
+               Nos Runners vous apporterons,  une solution claire, efficace et adaptée à vos contraintes tout en garantissant l’intégrité des marchandises transportées.
+               </p>
 	  	        </div>
             </div>
 	    </div>

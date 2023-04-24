@@ -35,32 +35,28 @@ export default function Area() {
 		<section className='section-presentation' style={{backgroundImage: `url(${BgArea.src})`, }}>
 			  <div className='h-full flex items-center justify-center'>
 			  	<div className="text-center">
-			  	<h1 className='md:text-6xl text-4xl lg:text-8xl text-cyan-600 lora'>ZONE D'INTERVENTION</h1>
+			  	<h1 className='md:text-6xl text-4xl lg:text-8xl font-semibold color-logo'>ZONE D'INTERVENTION</h1>
 			  	<h2 className='md:text-4xl text-2xl text-white'>Transport professionnel dans toute la France</h2>
 			  	</div>
 			  </div>
 		  </section> 
-		<div className="lg:grid lg:grid-cols-2 max-w-screen-xl mb-3 md:mb-0 mx-7 mt-14 lg:mx-10 xl:mx-auto">
+		<div className="lg:grid lg:grid-cols-2 max-w-screen-xl flex items-center mb-3 md:mb-0 mx-7 mt-14 lg:mx-10 xl:mx-auto">
 	  		<div className="  text-md md:text-lg lg:px-7">
 	  			<h2 className=" text-xl md:text-2xl  font-bold mb-4">Transport dans toute la France</h2>
 				<p> 
-					Fort d'une grande connaissance du réseau routier Francilien et Picard, nos Runners garantissent une fiabilité sans faille et une optimisation de vos transport en <strong>Ile de France</strong> et en <strong>Picardie</strong>.
-				</p>
+				Fort d'une grande connaissance du réseau routier Francilien et Picard, nos Runners garantissent une fiabilité sans faille et une optimisation de vos transport en Ile de France et en Picardie.				</p>
 				<h3 className='font-semibold text-lg md:text-xl mt-2'>
-				  	Transport express et réguliers
+				  	Transport express et standard
 				</h3>
 				<p className=''> 
-					Pour vos transports réguliers et express, vous pouvez nos confier vos courses en toute confiance et ce dans toute la France.
+				Pour vos transports standard et express, vous pouvez nous confier vos courses expéditions en toute confiance et ce dans toute la France.
 				</p>
 		  		<h3 className='font-semibold text-lg md:text-xl mt-2'>
 		  		Déménagements
 		  		</h3>
 				<p > 
-				  	Nous proposons d'effectuer vos déménagements dans toute la région <span className='font-semibold'><strong>Ile de France</strong></span> ou <span className='font-semibold'><strong>Picardie</strong></span> avec nos équipes de <strong>déménageurs</strong> professionnels
-				</p>
-				<div className='mt-5'>
-					Pour tout besoin de transports, effectuez une demande de devis, les devis sont réalisés après prise de contact afin de cerner au mieux vos besoins. Devis gratuit et rapide.
-				</div>
+				Nous proposons d'effectuer vos déménagements dans toute la région Ile de France ou Picardie avec nos équipes de déménageurs professionnels</p>
+
 				<div className="flex my-9">
 					<div className="wrapper">
   						<div className="link_wrapper">

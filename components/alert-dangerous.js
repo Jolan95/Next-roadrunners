@@ -9,7 +9,7 @@ export default function AlertDangerous() {
 			<path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/>
 		  </svg>
 		</div>
-		<div className="my-2 md:my-0">Nos Runners sont qualifiés et formés pour transporter et manipuler des marchandises dangereuses.</div>
+		<div className="my-2 text-sm lg:text-base 2xl:text-lg md:my-0">Road Runners organise les expéditions de marchandises classées matières dangereuses dans le respect strict des normes et des règlements en vigueur.</div>
 		<div className='ml-auto'><Link href="/matieres-dangereuses"><button className="button-know-more ">En Savoir +</button></Link></div>
   </div>
   )

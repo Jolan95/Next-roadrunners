@@ -38,23 +38,21 @@ export default function Accueil() {
 	<section className='section-presentation' style={{backgroundImage: `url(`+Fiat.src+`)`, }}>
 		<div className='h-full flex items-center justify-center'>
 			<div className="text-center">
-				<h1 className='md:text-8xl text-4xl text-cyan-600 lora'>ROAD RUNNERS</h1>
+				<h1 className='md:text-8xl text-4xl font-semibold color-logo'>ROAD RUNNERS</h1>
 				<h2 className='md:text-4xl text-2xl  text-white'>La clé d'un transport réussi</h2>
 			</div>
 		</div>
 	</section> 
 	<div className="lg:grid lg:grid-cols-2 max-w-screen-xl mb-3 md:mb-0 mx-7 mt-14 md:mx-10 xl:mx-auto">
 	  	<div className=" md:text-center text-md md:text-lg">
-	  		<h2 className=" text-xl md:text-2xl  font-bold mb-4">SOCIÉTÉ PROFESSIONNELLE DE TRANSPORT </h2>
-	  		{/* <p className="text-center font-bold">Partenaire de confiance pour tous transports de marchandise !</p> */}
+	  		<h2 className=" text-xl md:text-2xl  font-bold mb-4">TRANSPORT PROFESSIONNEL</h2>
 			<p className=""> 
-			  	Road Runners, votre partenaire confiance coordonne vos opérations de transports routiers express et réguliers dans toute la région <strong>Ile de France</strong> et <strong>Picardie</strong> effectués par ses <strong>Runners</strong> en toute fiabilité.<br/>
+			Présents à proximité des grandes zones économiques et des sites industriels, Road Runners et son équipe de Runners professionnel, proposent des solutions de transport routier fiables et adaptées à vos besoins dans toute la région Ile de France et Picardie.
 			</p>
-			<h3 className="mt-4 mb-1  font-semibold text-lg md:text-xl">Transport Régulier</h3>
-			Road Runner répond à vos besoins de livraisons régulières et programmés.
-			Optez pour la sérénité en confiant vos livraisons de marchandises régulières dans des véhicules spécialement dédiés à vos transport.
+			<h3 className="mt-4 mb-1  font-semibold text-lg md:text-xl">Transport Standard</h3>
+			Road Runners est votre partenaire idéal pour tous vos projets d’expéditions. Notre équipe intervient également sur des plans stratégiques et opérationnels, vous pourrez ainsi bénéficier d’une solution de transport sur mesure pour planifier l’envoi de toutes vos marchandises.
 			<h3 className="mt-4 mb-1 font-semibold text-lg md:text-xl">Transport Express</h3>
-			Nos Runners assure en toute sécurité et rapidité vos courses à la demande, pour des besoins express dans toute la France.
+			Spécialisé dans la livraison express (ou si pas spécialiste express mettre : Spécialiste du transport routier,…), nous disposons à cet effet d’une équipe de Runners opérationnel et flexible permettant une prise en charge rapide et une livraison efficace et sécurisé de vos marchandises dans toute la France.
 			<div className="flex md:justify-center mt-5">
 				<div className="wrapper">
   					<div className="link_wrapper">
@@ -81,7 +79,7 @@ export default function Accueil() {
 	</div>  
 	<Bandeau></Bandeau>
 	<div className="bg-white mt-6 md:mt-0">
-		<div className="lg:grid lg:grid-cols-2 max-w-screen-xl mx-auto mx-7 py-7 lg:py-16  md:mx-10 xl:mx-auto mb-8 text-md md:text-lg">
+		<div className="lg:grid lg:grid-cols-2 max-w-screen-xl mx-auto mx-7 py-7 lg:py-16  md:mx-10 xl:mx-auto text-md md:text-lg">
 			<div className="hidden lg:flex justify-center items-center">
       <Image
                 src={Map}
@@ -103,7 +101,7 @@ export default function Accueil() {
 			</div>
 		</div>
 	</div>
-	<div className="lg:grid lg:grid-cols-2 max-w-screen-xl mx-auto mx-7 md:mx-10 xl:mx-auto py-7 lg:py-14 text-md md:text-lg ">
+	{/* <div className="lg:grid lg:grid-cols-2 max-w-screen-xl mx-auto mx-7 md:mx-10 xl:mx-auto py-7 lg:py-14 text-md md:text-lg ">
 	  	<div className=" mx-4">
 	  		<h2 className="  font-bold mb-4 text-xl md:text-2xl">DEMENAGEMENT</h2>
 			<p className=" md:text-xl"> 
@@ -129,7 +127,7 @@ export default function Accueil() {
                 className="image-med h-auto xl:w-9/12 lg:w-11/12"
                 />
 	 	</div>
-	</div>
+	</div> */}
 	<div className="background-footer filter-opacity" style={{backgroundImage: `url(`+Route.src+`)`, }}>
 		<div className="text-white">
 			<h2 id="form" className="text-center font-bold pt-7 text-xl md:text-2xl">DEMANDE DE CONTACT</h2>

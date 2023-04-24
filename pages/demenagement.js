@@ -32,7 +32,7 @@ export default function Demenagement() {
         <section className='section-presentation' style={{backgroundImage: `url(`+Demenageurs.src+`)`, }}>
 		      <div className='h-full flex items-center justify-center'>
 		      	<div className="text-center">
-              	<h1 className='md:text-8xl text-4xl text-cyan-600 lora'>DÉMÉNAGEMENT </h1>
+              	<h1 className='md:text-8xl text-4xl font-semibold color-logo'>DÉMÉNAGEMENT </h1>
 		      	    <h2 className='md:text-4xl text-2xl text-white'>Equipe de déménageurs professionnels</h2>
 		      	</div>
 		      </div>
@@ -41,13 +41,12 @@ export default function Demenagement() {
 	  	<div className=" text-md md:text-lg mx-3 flex items-center">
 			<div>
 	  			<h2 className=" text-xl md:text-2xl  font-bold mb-4">Déménagement professionnel</h2>
-				<p> 
-				  	Road Runners vous accompagne pour vos déménagements dans toute la région <strong>Ile de France</strong> et <strong>Picardie</strong> à l'aide de ses <strong>déménageurs</strong> professionels.
+				<p className='pt-2'> 
+				Besoin d'un service de déménagement de qualité ?
 				</p>
-				<p className="my-2">Nous vous permettons de déménager sans stress en s'occupant du transport en toute sécurité de vos biens.
-				Nos déménageurs professionnels vous garantissent un service de qualité avec le chargement précautionneux de vos affaires jusqu'au déchargement à votre nouveau domicile.
+				<p className='pt-1'>
+					Les déménageurs professionnels de Road Runners,  vous accompagne pour vos déménagements dans toute la région Ile de France et Picardie. Nos déménageurs vous garantissent un service de qualité avec le chargement précautionneux de vos biens jusqu'au déchargement.
 				</p>
-				<p>Besoin d'une service de déménagement de qualité avec des camions récents et des déménageurs professionnels ? Contactez nous, devis gratuit et rapide !</p>
 				<div className="flex  mt-5">
 					<div className="wrapper">
   						<div className="link_wrapper">

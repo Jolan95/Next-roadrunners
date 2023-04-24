@@ -12,6 +12,9 @@ header img {
 .lora{
   font-family: 'Lora', serif;
 }
+.color-logo{
+  color : rgb(33, 132,166)
+}
 
 .section-presentation{
   height : calc(100vh - 120px);

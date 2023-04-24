@@ -27,7 +27,7 @@ export default function MentionsLégales() {
             Le site est exploité dans le respect de la législation française.<br/>     
             Les informations contenues sur ce site sont aussi précises que possibles et le site est périodiquement remis à jour, mais peut toutefois contenir des inexactitudes, des omissions ou des lacunes. <br/>
             Tout contenu téléchargé se fait aux risques et périls de l’utilisateur et sous sa seule responsabilité. En conséquence, Road Runners ne saurait être tenu responsable d’un quelconque dommage subi par l’ordinateur de l’utilisateur ou d’une quelconque perte de données consécutives a un téléchargement.<br/>
-             Ce site n'exploite aucun cookie et les informations renseignes lors d'une demande de contact ne sont pas enregistrés mais seulement envoyés par mail a l'équipe de Road Runners. Les photos sont non contractuelles. 
+             Ce site n'exploite aucun cookie et les informations renseignées lors d'une demande de contact ne sont pas enregistrées mais seulement envoyés par email a l'équipe de Road Runners. Les photos sont non contractuelles. 
         </div>
         <Footer></Footer>
     </>
