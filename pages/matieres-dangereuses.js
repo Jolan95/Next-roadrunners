@@ -14,12 +14,30 @@ import Logoclasse62 from "../assets/logo-classe/classe62.webp"
 import Logoclasse8 from "../assets/logo-classe/classe8.webp"
 import Logoclasse9 from "../assets/logo-classe/classe9.webp"
 import Image from 'next/image'
+import Head from 'next/head'
 
 export default function MatieresDangereuse() {
   return (
     <>
+	<Head>
+  <title>Road Runners - Matières dangereuses</title>
+  <link
+    rel="canonical"
+    href="https://road-runners-transport.netlify.app/matieres-dangereuses"
+    key="canonical"
+  />
+  <meta
+  name="description"
+  content="Road Runners assure vos transports de matières dangereuses dans toute la France"
+  />
+  <meta property="og:title" content="Roas Runners" />
+  <meta
+    property="og:description"
+    content="Road Runners assure vos transports de matières dangereuses dans toute la France"
+  />
+  </Head>
     <Header></Header>
-    <section className='section-presentation ' style={{backgroundImage: `url(`+BgMarchandise+`)`, }}>
+    <section className='section-presentation ' style={{backgroundImage: `url(`+BgMarchandise.src+`)`, }}>
 		<div className='h-full flex items-center justify-center'>
 			<div className="text-center">
 				<h1 className='md:text-8xl text-4xl text-cyan-600 lora'>MATIERES DANGEREUSES</h1>

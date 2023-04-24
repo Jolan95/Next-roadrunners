@@ -10,15 +10,32 @@ import Demenagement from "../assets/demenageurs.webp"
 import Form from "../components/form"
 import Iframe from "../components/iframe";
 import Image from "next/image";
+import Head from "next/head";
 
 
 
 export default function Accueil() {
   return (
 	<>
-
+  <Head>
+  <title>Road Runners</title>
+  <link
+    rel="canonical"
+    href="https://road-runners-transport.netlify.app/"
+    key="canonical"
+  />
+  <meta
+  name="description"
+  content="Road Runners, la clé d'un transport réussi ! Transporteur routier en Ile de France et Picardie."
+  />
+  <meta property="og:title" content="Roas Runners" />
+  <meta
+    property="og:description"
+    content="Road Runners, la clé d'un transport réussi ! Transporteur routier en Ile de France et Picardie."
+  />
+  </Head>
 	<Header active="accueil"></Header>
-	<section className='section-presentation' style={{backgroundImage: `url(`+Fiat+`)`, }}>
+	<section className='section-presentation' style={{backgroundImage: `url(`+Fiat.src+`)`, }}>
 		<div className='h-full flex items-center justify-center'>
 			<div className="text-center">
 				<h1 className='md:text-8xl text-4xl text-cyan-600 lora'>ROAD RUNNERS</h1>
@@ -113,7 +130,7 @@ export default function Accueil() {
 			{/* <img className="image-med h-auto xl:w-9/12 lg:w-11/12" src={Demenagement} alt="demenagement"></img> */}
 	 	</div>
 	</div>
-	<div className="background-footer filter-opacity" style={{backgroundImage: `url(`+Route+`)`, }}>
+	<div className="background-footer filter-opacity" style={{backgroundImage: `url(`+Route.src+`)`, }}>
 		<div className="text-white">
 			<h2 id="form" className="text-center font-bold pt-7 text-xl md:text-2xl">DEMANDE DE CONTACT</h2>
 	  		<div className="lg:grid text-white lg:grid-cols-2 max-w-screen-xl mx-4 md:mx-7  md:mx-10 xl:mx-auto pb-10 pt-10">

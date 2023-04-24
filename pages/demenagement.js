@@ -5,13 +5,31 @@ import Footer from '../components/footer'
 import Carton from "../assets/demenagement-carton.webp"
 import Link from 'next/link'
 import Image from 'next/image'
+import Head from 'next/head'
 
 
 export default function Demenagement() {
   return (
     <>
+        <Head>
+        <title>Road Runners - Demenagement</title>
+        <link
+          rel="canonical"
+          href="https://road-runners-transport.netlify.app/demenagement"
+          key="canonical"
+        />
+        <meta
+        name="description"
+        content="Road Runners effectue vos déménagements dans toute la région Ile de France et Picardie"
+        />
+        <meta property="og:title" content="Roas Runners - Demenagement" />
+        <meta
+          property="og:description"
+          content="Road Runners effectue vos déménagements dans toute la région Ile de France et Picardie"
+        />
+    </Head>
         <Header active="demenagement"></Header>
-        <section className='section-presentation' style={{backgroundImage: `url(`+Demenageurs+`)`, }}>
+        <section className='section-presentation' style={{backgroundImage: `url(`+Demenageurs.src+`)`, }}>
 		      <div className='h-full flex items-center justify-center'>
 		      	<div className="text-center">
               	<h1 className='md:text-8xl text-4xl text-cyan-600 lora'>DÉMÉNAGEMENT </h1>

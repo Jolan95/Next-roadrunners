@@ -8,6 +8,8 @@ import IconTelephone from "../assets/icons/tel.webp"
 import IconMail from "../assets/icons/mail.webp"
 import Link from 'next/link'
 import Image from 'next/image'
+import Head from 'next/head'
+
 
 
 export default function Devis() {
@@ -15,6 +17,23 @@ export default function Devis() {
 
   return (
     <>
+    <Head>
+        <title>Road Runners - Contact</title>
+        <link
+          rel="canonical"
+          href="https://road-runners-transport.netlify.app/contact"
+          key="canonical"
+        />
+        <meta
+        name="description"
+        content="Road Runners vous recontacte le plus rapidement possible pour repondre à vos requètes ou effectuer un devis gratuit"
+        />
+        <meta property="og:title" content="Roas Runners -Contact" />
+        <meta
+          property="og:description"
+          content="Road Runners vous recontacte le plus rapidement possible pour repondre à vos requètes ou effectuer un devis gratuit"
+        />
+    </Head>
         <Header active="devis"></Header>
         <div className='p-5 sm:p-10' id="form">
             <h1 className='text-2xl font-semibold text-center py-0 mg:py-3 lora'>Contact</h1>

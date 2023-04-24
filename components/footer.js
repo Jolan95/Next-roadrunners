@@ -5,7 +5,7 @@ import Link  from 'next/link'
 
 export default function Footer() {
   return (
-<footer className="background-footer" style={{backgroundImage: `url(`+Route+`)`, }}>
+<footer className="background-footer" style={{backgroundImage: `url(`+Route.src+`)`, }}>
     <div className=" text-center text-white">
         <div className="px-6 pt-6">
           <div className="mb-4 text-xl sm:text-3xl md:text-4xl lg:text-5xl  flex justify-center">

@@ -7,19 +7,36 @@ import Devis from "../assets/icons/devis.webp"
 import Truck from "../assets/icons/truck.webp"
 import Link from 'next/link'
 import Image from 'next/image'
+import Head from 'next/head'
 
 
 
 export default function Area() {
   return (
 	<>
-
+    <Head>
+        <title>Road Runners - Zone d'acheminement</title>
+        <link
+          rel="canonical"
+          href="https://road-runners-transport.netlify.app/area"
+          key="canonical"
+        />
+        <meta
+        name="description"
+        content="Road Runners, spécialiste du transport dans la région Ile de France et Picardie effectue aussi vos courses vers tout l'héxagone"
+        />
+        <meta property="og:title" content="Roas Runners - Zone d'acheminement" />
+        <meta
+          property="og:description"
+          content="Road Runners, spécialiste du transport dans la région Ile de France et Picardie effectue aussi vos courses vers tout l'héxagone"
+        />
+    </Head>
 		<Header active="zone"></Header>
-		<section className='section-presentation' style={{backgroundImage: `url(`+BgArea+`)`, }}>
+		<section className='section-presentation' style={{backgroundImage: `url(${BgArea.src})`, }}>
 			  <div className='h-full flex items-center justify-center'>
 			  	<div className="text-center">
 			  	<h1 className='md:text-6xl text-4xl lg:text-8xl text-cyan-600 lora'>ZONE D'INTERVENTION</h1>
-			  	<h2 className='md:text-4xl text-2xl  text-white'>Transport professionnel dans toute la France</h2>
+			  	<h2 className='md:text-4xl text-2xl text-white'>Transport professionnel dans toute la France</h2>
 			  	</div>
 			  </div>
 		  </section> 

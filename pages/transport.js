@@ -8,13 +8,30 @@ import Link from 'next/link'
 import Bandeau from '../components/bandeau'
 import AlertDangerous from '../components/alert-dangerous'
 import Image from 'next/image'
+import Head from 'next/head'
 
 export default function Transport() {
   return (
     <>
-
+	  <Head>
+  <title>Road Runners - Transports</title>
+  <link
+    rel="canonical"
+    href="https://road-runners-transport.netlify.app/matieres-dangereuses"
+    key="canonical"
+  />
+  <meta
+  name="description"
+  content="Road Runners assure vos transports régulier et express dans toute la France"
+  />
+  <meta property="og:title" content="Roas Runners" />
+  <meta
+    property="og:description"
+    content="Road Runners assure vos transports régulier et express dans toute la France"
+  />
+  </Head>
         <Header active="transport"></Header>
-        <section className='section-presentation' style={{backgroundImage: `url(`+Camion+`)`, }}>
+        <section className='section-presentation' style={{backgroundImage: `url(`+Camion.src+`)`, }}>
 		    <div className='h-full flex items-center justify-center'>
 		      	<div className="text-center">
               	    <h1 className='md:text-8xl text-4xl text-cyan-600 lora'>TRANSPORT</h1>
@@ -54,15 +71,14 @@ export default function Transport() {
 	      	<div className="hidden lg:flex items-center xl:px-7">
               <Image
                 src={Camion2}
-                alt="Logo2"
+                alt="camion"
                 />
-	    		{/* <img className="image-reverse " src={IconTrust} alt="mercedes"></img> */}
 	      	</div>
             <div className='flex items-center'>
 	  	        <div className="  text-md md:text-lg lg:px-7">
 	  	        	<h2 className=" text-xl md:text-2xl  font-bold mb-4">TRANSPORT EXPRESS</h2>
 		        	<p> 
-                        Besoin d'un transport urgent et sécurisé de marchandise ? Vous êtes professionnel ou particulier? Nos runners répondent à la prise en charge et à l'achemnement express de vos marchandise. 
+                        Besoin d'un transport urgent et sécurisé de marchandise ? Vous êtes professionnel ou particulier? Nos runners répondent à la prise en charge et à l'acheminement express de vos marchandise. 
 		        	</p>
 		        	<p className='mt-2'> 
 		        	  	Pour un besoin de dernière minute, vous pouvez compter sur Road Express afin d'opérer un transport de qualité, rapide et sécure, en béneficiant de la même qualité logistique qu'un transport programmé.
