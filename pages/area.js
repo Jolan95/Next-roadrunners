@@ -25,7 +25,7 @@ export default function Area() {
         name="description"
         content="Road Runners, spécialiste du transport dans la région Ile de France et Picardie effectue aussi vos courses vers tout l'héxagone"
         />
-        <meta property="og:title" content="Roas Runners - Zone d'acheminement" />
+        <meta property="og:title" content="Road Runners - Zone d'acheminement" />
         <meta
           property="og:description"
           content="Road Runners, spécialiste du transport dans la région Ile de France et Picardie effectue aussi vos courses vers tout l'héxagone"
@@ -76,7 +76,7 @@ export default function Area() {
 			</div>
 		  	<div className="hidden lg:flex items-center  xl:px-7">
               <Image
-                alt="Logo2"
+                alt="image France"
                 src={France}
             />
 		  	</div>
@@ -87,7 +87,7 @@ export default function Area() {
 			<div className="flex justify-center">
             <Image
             src={Truck}
-            alt="Logo2"
+            alt="camion"
             />
             </div>
 			<div className="font-semibold lg:font-bold hidden md:block text-center">Transport rapide et sécurisé</div>
@@ -99,7 +99,7 @@ export default function Area() {
 			<div className="flex justify-center">
             <Image
                 src={France}
-                alt="Logo2"
+                alt="icone france"
             />
             </div>
 			<div className="font-semibold lg:font-bold text-center">Transport dans toute la France</div>

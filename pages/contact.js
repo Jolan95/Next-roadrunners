@@ -6,15 +6,10 @@ import Iframe from "../components/iframe"
 import IconLocalisation from "../assets/icons/localisation.webp"
 import IconTelephone from "../assets/icons/tel.webp"
 import IconMail from "../assets/icons/mail.webp"
-import Link from 'next/link'
 import Image from 'next/image'
 import Head from 'next/head'
 
-
-
 export default function Devis() {
-
-
   return (
     <>
     <Head>
@@ -28,7 +23,7 @@ export default function Devis() {
         name="description"
         content="Road Runners vous recontacte le plus rapidement possible pour repondre à vos requètes ou effectuer un devis gratuit"
         />
-        <meta property="og:title" content="Roas Runners -Contact" />
+        <meta property="og:title" content="Road Runners -Contact" />
         <meta
           property="og:description"
           content="Road Runners vous recontacte le plus rapidement possible pour repondre à vos requètes ou effectuer un devis gratuit"
@@ -50,7 +45,6 @@ export default function Devis() {
                                 alt="tel"
                                 className="h-4 w-auto"
                                 />
-                                {/* <img src={IconTelephone} alt="icon" className='h-4 w-auto'></img> */}
                                  : 06.68.58.43.76
                             </div>
                             <div className='flex items-center'>
@@ -59,7 +53,6 @@ export default function Devis() {
                                 alt="mail"
                                 className="h-4 w-auto"
                                 />
-                                {/* <img src={IconMail} alt="icon" className='h-4 w-auto'></img> */}
                                  : RRUNNERS.TRANSPORT@GMAIL.COM
                             </div>
                             <div className='flex items-center'>
@@ -69,7 +62,6 @@ export default function Devis() {
                                 className="h-4 w-auto"
 
                                 />
-                                {/* <img src={IconLocalisation} alt="icon" className='h-4 w-auto'></img>  */}
                                 : 20 RUE ROGER SALENGRO 95270 SAINT-MARTIN-DU-TERTRE
                             </div>
                         </div>

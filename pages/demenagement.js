@@ -12,22 +12,22 @@ export default function Demenagement() {
   return (
     <>
         <Head>
-        <title>Road Runners - Demenagement</title>
-        <link
-          rel="canonical"
-          href="https://road-runners-transport.netlify.app/demenagement"
-          key="canonical"
-        />
-        <meta
-        name="description"
-        content="Road Runners effectue vos déménagements dans toute la région Ile de France et Picardie"
-        />
-        <meta property="og:title" content="Roas Runners - Demenagement" />
-        <meta
-          property="og:description"
-          content="Road Runners effectue vos déménagements dans toute la région Ile de France et Picardie"
-        />
-    </Head>
+            <title>Road Runners - Demenagement</title>
+            <link
+              rel="canonical"
+              href="https://road-runners-transport.netlify.app/demenagement"
+              key="canonical"
+            />
+            <meta
+            name="description"
+            content="Road Runners effectue vos déménagements dans toute la région Ile de France et Picardie"
+            />
+            <meta property="og:title" content="Road Runners - Demenagement" />
+            <meta
+              property="og:description"
+              content="Road Runners effectue vos déménagements dans toute la région Ile de France et Picardie"
+            />
+        </Head>
         <Header active="demenagement"></Header>
         <section className='section-presentation' style={{backgroundImage: `url(`+Demenageurs.src+`)`, }}>
 		      <div className='h-full flex items-center justify-center'>
@@ -41,7 +41,6 @@ export default function Demenagement() {
 	  	<div className=" text-md md:text-lg mx-3 flex items-center">
 			<div>
 	  			<h2 className=" text-xl md:text-2xl  font-bold mb-4">Déménagement professionnel</h2>
-	  			{/* <p className="text-center font-bold">Partenaire de confiance pour tous transports de marchandise !</p> */}
 				<p> 
 				  	Road Runners vous accompagne pour vos déménagements dans toute la région <strong>Ile de France</strong> et <strong>Picardie</strong> à l'aide de ses <strong>déménageurs</strong> professionels.
 				</p>
@@ -66,9 +65,8 @@ export default function Demenagement() {
 	  	<div className="hidden lg:flex mx-4 items-center">
           <Image
                 src={Carton}
-                alt="mercedes"    
+                alt="demenagement" 
                 />
-			  <img className="image-reverse" src={Carton} alt="mercedes"></img>
 	  	</div>
 	</div>
 	<Footer></Footer> 

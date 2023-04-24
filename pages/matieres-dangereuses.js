@@ -30,7 +30,7 @@ export default function MatieresDangereuse() {
   name="description"
   content="Road Runners assure vos transports de matières dangereuses dans toute la France"
   />
-  <meta property="og:title" content="Roas Runners" />
+  <meta property="og:title" content="Road Runners" />
   <meta
     property="og:description"
     content="Road Runners assure vos transports de matières dangereuses dans toute la France"
@@ -62,7 +62,6 @@ export default function MatieresDangereuse() {
                         alt="icons-danger"
                         className="img-logo-classe"
                         />
-						{/* <img alt="logo-classe" src={Logoclasse2} className='img-logo-classe'></img> */}
 						</div>
 						<div>
 							<div className='font-semibold '>
@@ -74,7 +73,6 @@ export default function MatieresDangereuse() {
 					<hr></hr>
 					<div className='flex items-center text-left p-2'>
 						<div className='w-44  hidden md:block'>
-							{/* <img alt="logo-classe" src={Logoclasse3} className='img-logo-classe'></img> */}
                         <Image
                         src={Logoclasse3}
                         alt="icons-danger"
@@ -91,7 +89,6 @@ export default function MatieresDangereuse() {
 					<hr></hr>
 					<div className='flex items-center text-left p-2'>
 						<div className='w-44 hidden md:block'>
-							{/* <img alt="logo-classe" src={Logoclasse41} className='img-logo-classe'></img> */}
                         <Image
                         src={Logoclasse41}
                         alt="icons-danger"
@@ -108,7 +105,6 @@ export default function MatieresDangereuse() {
 					<hr></hr>
 					<div className='flex items-center text-left p-2'>
 						<div className='w-44 hidden md:block'>
-							{/* <img alt="logo-classe" src={Logoclasse42} className='img-logo-classe'></img> */}
                         <Image
                         src={Logoclasse42}
                         alt="icons-danger"
@@ -130,7 +126,6 @@ export default function MatieresDangereuse() {
                         alt="icons-danger"
                         className="img-logo-classe"
                         />
-							{/* <img alt="logo-classe" src={Logoclasse43} className='img-logo-classe'></img> */}
 						</div>
 						<div>
 							<div className='font-semibold '>
@@ -147,7 +142,6 @@ export default function MatieresDangereuse() {
                         alt="icons-danger"
                         className="img-logo-classe"
                         />
-						{/* <img alt="logo-classe" src={Logoclasse51} className='img-logo-classe'></img> */}
 						</div>
 						<div>
 							<div className='font-semibold '>
@@ -159,7 +153,6 @@ export default function MatieresDangereuse() {
 					<hr></hr>
 					<div className='flex items-center text-left p-2'>
 						<div className='w-44 hidden md:block'>
-							{/* <img alt="logo-classe" src={Logoclasse52} className='img-logo-classe'></img> */}
                         <Image
                         src={Logoclasse52}
                         alt="icons-danger"
@@ -176,7 +169,6 @@ export default function MatieresDangereuse() {
 					<hr></hr>
 					<div className='flex items-center text-left p-2'>
 						<div className='w-44 hidden md:block'>
-							{/* <img alt="logo-classe" src={Logoclasse61} className='img-logo-classe'></img> */}
                         <Image
                         src={Logoclasse61}
                         alt="icons-danger"
@@ -193,7 +185,6 @@ export default function MatieresDangereuse() {
 					<hr></hr>
 					<div className='flex items-center text-left p-2'>
 						<div className='w-44 hidden md:block'>
-							{/* <img alt="logo-classe" src={Logoclasse62} className='img-logo-classe'></img> */}
                         <Image
                         src={Logoclasse62}
                         alt="icons-danger"
@@ -210,7 +201,6 @@ export default function MatieresDangereuse() {
 					<hr></hr>
 					<div className='flex items-center text-left p-2'>
 						<div className='w-44 hidden md:block'>
-							{/* <img alt="logo-classe" src={Logoclasse8} className='img-logo-classe'></img> */}
                         <Image
                         src={Logoclasse8}
                         alt="icons-danger"
@@ -227,7 +217,6 @@ export default function MatieresDangereuse() {
 					<hr></hr>
 					<div className='flex items-center text-left p-2'>
 						<div className='w-44 hidden md:block'>
-							{/* <img alt="logo-classe" src={Logoclasse9} className='img-logo-classe'></img> */}
                         <Image
                         src={Logoclasse9}
                         alt="icons-danger"

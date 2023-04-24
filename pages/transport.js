@@ -24,7 +24,7 @@ export default function Transport() {
   name="description"
   content="Road Runners assure vos transports régulier et express dans toute la France"
   />
-  <meta property="og:title" content="Roas Runners" />
+  <meta property="og:title" content="Road Runners" />
   <meta
     property="og:description"
     content="Road Runners assure vos transports régulier et express dans toute la France"
@@ -56,9 +56,9 @@ export default function Transport() {
 	      	<div className="hidden lg:flex items-center  xl:px-7">
               <Image
                 src={BgChargement}
-                alt="Logo2"
+                alt="chargement"
+                className='image-reverse'
                    />
-	    		{/* <img className="image-reverse" src={BgChargement} alt="mercedes"></img> */}
 	      	</div>
 	    </div>
         <div className='bg-slate-800 text-center text-white px-4 py-7 mt-10 text-md md:text-lg'>

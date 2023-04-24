@@ -28,7 +28,7 @@ export default function Accueil() {
   name="description"
   content="Road Runners, la clé d'un transport réussi ! Transporteur routier en Ile de France et Picardie."
   />
-  <meta property="og:title" content="Roas Runners" />
+  <meta property="og:title" content="Road Runners" />
   <meta
     property="og:description"
     content="Road Runners, la clé d'un transport réussi ! Transporteur routier en Ile de France et Picardie."
@@ -71,9 +71,9 @@ export default function Accueil() {
 	  	<div className="hidden lg:block">
       <Image
         src={truckMercedes}
-        alt="mercedes"    
+        alt="mercedes"  
+        className="image-reverse"  
         />
-			{/* <img className="image-reverse" src={truckMercedes} alt="mercedes"></img> */}
 	  	</div>
 	</div>
 	<div className="pt-5 mx-6">
@@ -85,9 +85,9 @@ export default function Accueil() {
 			<div className="hidden lg:flex justify-center items-center">
       <Image
                 src={Map}
-                alt="mercedes"    
+                alt="map"
+                className="h-auto xl:w-9/12 lg:w-11/12"    
                 />
-				{/* <img className="h-auto xl:w-9/12 lg:w-11/12" src={Map} alt="map"></img> */}
 			</div>
 			<div className="md:flex md:items-center mx-4">
 				<div className="md:text-center lg:text-left">
@@ -125,9 +125,9 @@ export default function Accueil() {
 	 	<div className="hidden lg:flex justify-center items-end xl:items-center ">
      <Image
                 src={Demenagement}
-                alt="mercedes"    
+                alt="demenagement"    
+                className="image-med h-auto xl:w-9/12 lg:w-11/12"
                 />
-			{/* <img className="image-med h-auto xl:w-9/12 lg:w-11/12" src={Demenagement} alt="demenagement"></img> */}
 	 	</div>
 	</div>
 	<div className="background-footer filter-opacity" style={{backgroundImage: `url(`+Route.src+`)`, }}>
