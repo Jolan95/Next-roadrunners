@@ -36,10 +36,10 @@ export default function Accueil() {
   </Head>
 	<Header active="accueil"></Header>
 	<section className='section-presentation' style={{backgroundImage: `url(`+Fiat.src+`)`, }}>
-		<div className='h-full flex items-center justify-center'>
-			<div className="text-center">
-				<h1 className='md:text-8xl text-4xl font-semibold color-logo'>ROAD RUNNERS</h1>
-				<h2 className='md:text-4xl text-2xl  text-white'>La clé d'un transport réussi</h2>
+		<div className='h-full flex items-end justify-start'>
+			<div className="p-4">
+				<h1 className='md:text-7xl text-3xl font-semibold color-logo'>ROAD RUNNERS</h1>
+				<h2 className='md:text-3xl text-xl  text-white'>La clé d'un transport réussi</h2>
 			</div>
 		</div>
 	</section> 
@@ -142,10 +142,10 @@ export default function Accueil() {
 			<footer>
     			<div className=" text-center text-white">
     			    <div className="px-6 pt-6">
-    			      <div className="mb-4 text-xl sm:text-3xl md:text-4xl lg:text-5xl  flex justify-center">
+    			      <div className="mb-4 text-lg sm:text-2xl md:text-3xl lg:text-4xl  flex justify-center">
     			          rrunners.transport@gmail.com
     			      </div>
-    			      <div className="mb-4 text-lg text-2xl  lg:text-3xl flex justify-center">
+    			      <div className="mb-4 text-base text-xl  lg:text-2xl flex justify-center">
 					  	06.68.58.43.76
     			      </div>
     			    </div>

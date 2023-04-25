@@ -33,10 +33,10 @@ export default function Area() {
     </Head>
 		<Header active="zone"></Header>
 		<section className='section-presentation' style={{backgroundImage: `url(${BgArea.src})`, }}>
-			  <div className='h-full flex items-center justify-center'>
-			  	<div className="text-center">
-			  	<h1 className='md:text-6xl text-4xl lg:text-8xl font-semibold color-logo'>ZONE D'INTERVENTION</h1>
-			  	<h2 className='md:text-4xl text-2xl text-white'>Transport professionnel dans toute la France</h2>
+			  <div className='h-full flex items-end justify-start'>
+			  	<div className="p-4">
+			  	<h1 className='md:text-5xl text-3xl lg:text-7xl font-semibold color-logo'>ZONE D'INTERVENTION</h1>
+			  	<h2 className='md:text-3xl text-xl text-white'>Transport professionnel dans toute la France</h2>
 			  	</div>
 			  </div>
 		  </section> 
