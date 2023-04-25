@@ -68,8 +68,8 @@ export default function Form(props) {
             </div>
             <div className='my-2  '>
                 <div>Je suis un :</div>
-                <input type="radio" selected onChange={(e)=> {setStatut("Professionnel")}} name="statut" value="email"/><label className='pl-1'>Professionnel</label>
-                <input type="radio" className='ml-2'  onChange={(e)=> {setStatut("Particulier")}} name="statut" value="email"/><label className='pl-1'>Particulier</label>
+                <input type="radio" checked={statut == "Professionnel"? true : false} onChange={(e)=> {setStatut("Professionnel")}} name="statut" value="ptofessionnel"/><label className='pl-1'>Professionnel</label>
+                <input type="radio" checked={statut == "Particulier"? true : false} className='ml-2'  onChange={(e)=> {setStatut("Particulier")}} name="statut" value="particulier"/><label className='pl-1'>Particulier</label>
             </div>
             <div className='mt-2'>
                 <div>Message</div>
@@ -77,8 +77,8 @@ export default function Form(props) {
             </div>
             <div className='my-2 '>
                 <div>Je préfère être contacté par :</div>
-                <input type="radio" selected onChange={(e)=> {setPreference("telephone")}} name="contact" value="email"/><label className='pl-1'>Telephone</label>
-                <input type="radio" className='ml-2'  onChange={(e)=> {setPreference("email")}} name="contact" value="email"/><label className='pl-1'>Email</label>
+                <input type="radio" checked={preference == "telephone"? true : false} onChange={(e)=> {setPreference("telephone")}} name="contact" value="email"/><label className='pl-1'>Telephone</label>
+                <input type="radio" checked={preference == "email"? true : false} className='ml-2'  onChange={(e)=> {setPreference("email")}} name="contact" value="email"/><label className='pl-1'>Email</label>
             </div>
             <div className='my-3 text-sm md:text-md '>
                 <input className='mr-1' type="checkbox" onClick={()=> {setCheck(!check)}}></input>J'accepte que mes données soient traitées par Road Runners afin d'être contacté

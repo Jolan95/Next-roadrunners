@@ -37,7 +37,7 @@ export default function Demenagement() {
 		      	</div>
 		      </div>
 	      </section> 
-        <div className="lg:grid lg:grid-cols-2 max-w-screen-xl mb-3 md:mb-9 mx-7 mt-14 md:mx-10 xl:mx-auto ">
+        <div className="lg:grid lg:grid-cols-2 max-w-screen-xl mb-9 mx-7 mt-14 md:mx-10 xl:mx-auto ">
 	  	<div className=" text-md md:text-lg mx-3 flex items-center">
 			<div>
 	  			<h2 className=" text-xl md:text-2xl  font-bold mb-4">Déménagement professionnel</h2>

@@ -24,7 +24,7 @@ export default function Devis() {
         name="description"
         content="Road Runners vous recontacte le plus rapidement possible pour repondre à vos requètes ou effectuer un devis gratuit"
         />
-        <meta property="og:title" content="Road Runners -Contact" />
+        <meta property="og:title" content="Road Runners - Contact" />
         <meta
           property="og:description"
           content="Road Runners vous recontacte le plus rapidement possible pour repondre à vos requètes ou effectuer un devis gratuit"
@@ -46,7 +46,7 @@ export default function Devis() {
                                 alt="tel"
                                 className="h-4 w-auto"
                                 />
-                                 : 06.68.58.43.76
+                                 : 07.87.46.07.44
                             </div>
                             <div className='flex items-center'>
                                 <Image
