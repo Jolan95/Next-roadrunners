@@ -74,7 +74,7 @@ export default function Devis() {
                     </div>
                 </div>
                 <div  className='wrapper-form order-first '>
-                    <h2 className='text-xl font-semibold'>Demande de contact</h2>
+                    <h2 className='text-xl font-semibold'>Devis express</h2>
                     <Form color="black">
                     </Form>
                 </div>

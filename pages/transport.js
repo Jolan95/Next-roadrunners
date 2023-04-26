@@ -9,6 +9,7 @@ import Bandeau from '../components/bandeau'
 import AlertDangerous from '../components/alert-dangerous'
 import Image from 'next/image'
 import Head from 'next/head'
+import FirstSection from '../components/first-section'
 
 export default function Transport() {
   return (
@@ -22,23 +23,16 @@ export default function Transport() {
   />
   <meta
   name="description"
-  content="Road Runners assure vos transports régulier et express dans toute la France"
+  content="Road Runners assure vos transports stadards et express dans toute la France"
   />
   <meta property="og:title" content="Road Runners" />
   <meta
     property="og:description"
-    content="Road Runners assure vos transports régulier et express dans toute la France"
+    content="Road Runners assure vos transports standards et express dans toute la France"
   />
   </Head>
         <Header active="transport"></Header>
-        <section className='section-presentation' style={{backgroundImage: `url(`+Camion.src+`)`, }}>
-		    <div className='h-full flex items-end justify-start'>
-		      	<div className="pl-4 pb-6">
-              	    <h1 className='md:text-7xl text-3xl font-semibold color-logo kanit'>TRANSPORT</h1>
-		      	    <h2 className='md:text-3xl text-xl text-white'>La clé d'un transport réussi</h2>
-		      	</div>
-		    </div>
-        </section>
+        <FirstSection bg={Camion} title="TRANSPORT" subtitle="La clé d'un transport réussi"></FirstSection>
         <div className="lg:grid lg:grid-cols-2 max-w-screen-xl mb-3 md:mb-0 mx-7 mt-14 lg:mx-10 xl:mx-auto flex items-center">
 	  	    <div className="  text-md md:text-lg lg:px-7">
 	  	    	<h2 className=" text-xl md:text-2xl  font-bold mb-4">TRANSPORT STANDARD</h2>
@@ -61,7 +55,7 @@ export default function Transport() {
         <div className='bg-slate-800 text-center text-white px-4 py-7 mt-10 text-md md:text-lg'>
             Vous avez besoin d'un transport de qualité ? Effectuez un devis ou demandez une prise de contact
             <div className="flex justify-center mt-3">
-                <Link href="/devis#form"><button className="button-devis text-lg">Demande de devis</button></Link>
+                <Link href="/contact#form"><button className="button-devis text-lg">Demande de devis</button></Link>
             </div>
         </div>
         <div className="lg:grid lg:grid-cols-2 max-w-screen-xl mb-3 md:mb-0 mx-7 mt-14 lg:mx-10 xl:mx-auto pb-14 ">

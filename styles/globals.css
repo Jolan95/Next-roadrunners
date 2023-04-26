@@ -13,7 +13,7 @@ header img {
 .kanit{
   font-family: 'Kanit', sans-serif;
   font-weight : 800;
-  background-image:  linear-gradient(90deg, rgba(14,181,225,1) 35%, rgba(0,111,187,1) 100%);
+  background-image:  linear-gradient(90deg, rgba(14,181,225,1) 0%, rgba(0,111,187,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-background-clip: text;
@@ -21,13 +21,16 @@ header img {
   background-clip: text;
   -moz-text-fill-color: transparent;
 }
-
-
 .section-presentation{
   height : calc(100vh - 120px);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px) {
+  .section-presentation{
+    height : calc(70vh - 120px);
+  }
 }
 .filter-opacity{ 
   width : 100%;
@@ -65,7 +68,7 @@ textarea{
 
 .button-know-more{
   background-color: transparent;
-  height : 50px;
+  height : 45px;
   width : 110px;
   border-radius: 12px;
   border : 1px solid white 

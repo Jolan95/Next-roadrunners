@@ -15,6 +15,7 @@ import Logoclasse8 from "../assets/logo-classe/classe8.webp"
 import Logoclasse9 from "../assets/logo-classe/classe9.webp"
 import Image from 'next/image'
 import Head from 'next/head'
+import FirstSection from '../components/first-section'
 
 export default function MatieresDangereuse() {
   return (
@@ -37,14 +38,7 @@ export default function MatieresDangereuse() {
   />
   </Head>
     <Header></Header>
-    <section className='section-presentation ' style={{backgroundImage: `url(`+BgMarchandise.src+`)`, }}>
-		<div className='h-full flex items-end justify-start'>
-			<div className="pl-4 pb-6">
-				<h1 className='md:text-7xl text-3xl font-semibold color-logo kanit'>MATIERES DANGEREUSES</h1>
-				<h2 className='md:text-3xl text-xl  text-white'>Transport de marchandises dangereuses par voie terrestre</h2>
-			</div>
-		</div>
-	</section>
+	<FirstSection bg={BgMarchandise} title="MATIERES DANGEREUSES" subtitle="Transport de marchandises dangereuses par voie terrestre"></FirstSection>
   	<div className="md:flex md:items-center px-4 py-5 bg-white">
 		<div className=" lg:text-left">
 			<h2 className=" font-bold mb-4 mt-4 text-xl md:text-2xl">MATIERES DANGEREUSES</h2>
@@ -233,7 +227,7 @@ export default function MatieresDangereuse() {
 					<hr></hr>
 					<div className='mt-5'>
 					Vous pouvez nous confier en toute confiance vos transports de marchandises dangereuses que nos Runners qualifiés sauront transporter en toute sécurité.<br/>
-					Pour cela vous pouvez nous contacter ou demander une prise de contact afin d'avoir plus d'informations ou un devis gratuit.
+					Pour cela vous pouvez nous contacter afin d'obtenir davantages d'informations .
 					</div>
 					<div className="flex my-5">
 						<div className="wrapper">
