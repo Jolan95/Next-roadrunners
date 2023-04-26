@@ -39,8 +39,8 @@ export default function MatieresDangereuse() {
     <Header></Header>
     <section className='section-presentation ' style={{backgroundImage: `url(`+BgMarchandise.src+`)`, }}>
 		<div className='h-full flex items-end justify-start'>
-			<div className="p-4">
-				<h1 className='md:text-7xl text-3xl font-semibold color-logo'>MATIERES DANGEREUSES</h1>
+			<div className="pl-4 pb-6">
+				<h1 className='md:text-7xl text-3xl font-semibold color-logo kanit'>MATIERES DANGEREUSES</h1>
 				<h2 className='md:text-3xl text-xl  text-white'>Transport de marchandises dangereuses par voie terrestre</h2>
 			</div>
 		</div>

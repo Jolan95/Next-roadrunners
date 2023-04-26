@@ -31,8 +31,8 @@ export default function Demenagement() {
         <Header active="demenagement"></Header>
         <section className='section-presentation' style={{backgroundImage: `url(`+Demenageurs.src+`)`, }}>
 		      <div className='h-full flex items-end justify-start'>
-		      	<div className="p-4">
-              	<h1 className='md:text-7xl text-3xl font-semibold color-logo'>DÉMÉNAGEMENT </h1>
+		      	<div className="pl-4 pb-6">
+              	<h1 className='md:text-7xl text-3xl font-semibold color-logo kanit'>DÉMÉNAGEMENT </h1>
 		      	    <h2 className='md:text-3xl text-xl text-white'>Equipe de déménageurs professionnels</h2>
 		      	</div>
 		      </div>

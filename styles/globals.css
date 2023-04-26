@@ -2,19 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.cdnfonts.com/css/eagle-book');
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
 
 header img {
   height : 120px;
   width : auto
 }
-.lora{
-  font-family: 'Lora', serif;
+.kanit{
+  font-family: 'Kanit', sans-serif;
+  font-weight : 800;
+  background-image:  linear-gradient(90deg, rgba(14,181,225,1) 35%, rgba(0,111,187,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  background-clip: text;
+  -moz-text-fill-color: transparent;
 }
-.color-logo{
-  color : rgb(33, 132,166)
-}
+
 
 .section-presentation{
   height : calc(100vh - 120px);

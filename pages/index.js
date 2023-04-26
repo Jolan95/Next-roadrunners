@@ -35,8 +35,8 @@ export default function Accueil() {
 	<Header active="accueil"></Header>
 	<section className='section-presentation' style={{backgroundImage: `url(`+Fiat.src+`)`, }}>
 		<div className='h-full flex items-end justify-start'>
-			<div className="p-4">
-				<h1 className='md:text-7xl text-3xl font-semibold color-logo'>ROAD RUNNERS</h1>
+			<div className="pl-4 pb-6">
+				<h1 className='md:text-7xl text-3xl  color-logo kanit'>ROAD RUNNERS</h1>
 				<h2 className='md:text-3xl text-xl  text-white'>La clé d'un transport réussi</h2>
 			</div>
 		</div>
