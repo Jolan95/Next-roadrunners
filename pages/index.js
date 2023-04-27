@@ -6,8 +6,8 @@ import Route from '../assets/routes.webp'
 import Map from "../assets/map.webp"
 import Link from "next/link";
 import Fiat from "../assets/fiat.jpg"
-import IconTelephone from "../assets/icons/tel.webp"
-import IconMail from "../assets/icons/mail.webp"
+import IconTelephone from "../assets/icons/tel-white.webp"
+import IconMail from "../assets/icons/mail-white.webp"
 import Demenagement from "../assets/demenageurs.webp"
 import Form from "../components/form"
 import Iframe from "../components/iframe";
