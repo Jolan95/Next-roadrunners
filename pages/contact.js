@@ -4,8 +4,8 @@ import Footer from '../components/footer'
 import Form  from '../components/form'
 import Iframe from "../components/iframe"
 import IconTelephone from "../assets/icons/tel.webp"
-import Linkedin from "../assets/linkedin.webp"
 import IconMail from "../assets/icons/mail.webp"
+import Linkedin from "../assets/linkedin.webp"
 import Link from 'next/link'
 import Image from 'next/image'
 import Head from 'next/head'
@@ -36,8 +36,8 @@ export default function Devis() {
             <div className="lg:grid lg:grid-cols-2 max-w-screen-xl mx-auto mx-7 md:mx-10 xl:mx-auto pb-7 lg:py-7 text-md md:text-lg ">
                 <div>
                     <div className='border-2 border-black p-5 mb-5 mt-7 lg:mt-0'>
-                        <h1 className='text-center text-xl color-logo font-semibold'>
-                        Road Runners
+                        <h1 className='text-center text-xl color-logo font-semibold underline'>
+                        ROAD RUNNERS
                         </h1>
                         <div>
                             <div className='flex items-center'>
@@ -56,13 +56,13 @@ export default function Devis() {
                                 />
                                  : RRUNNERS.TRANSPORT@GMAIL.COM
                             </div>
-                            <div className='flex items-center'>
+                            <div className='flex items-center '>
                                 <Image
                                 src={Linkedin}
                                 alt="mail"
-                                className="h-4 w-auto"
+                                className="h-4 w-auto mr-1"
                                 />
-                                 <Link href="https://www.linkedin.com/in/road-runners-89b61726b/" className="text-cyan-800 ml-1">Road Runners</Link>
+                                 : <Link href="https://www.linkedin.com/in/road-runners-89b61726b/" className="text-cyan-800 ml-1">Road Runners</Link>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@ export default function Devis() {
                     </div>
                 </div>
                 <div  className='wrapper-form order-first '>
-                    <h2 className='text-xl font-semibold'>Devis express</h2>
+                    <h2 className='text-xl font-semibold underline'>Devis Express</h2>
                     <Form color="black">
                     </Form>
                 </div>

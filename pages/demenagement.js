@@ -41,12 +41,15 @@ export default function Demenagement() {
 				Besoin d'un service de déménagement de qualité ?
 				</p>
 				<p className='pt-1'>
-					Les déménageurs professionnels de Road Runners,  vous accompagne pour vos déménagements dans toute la région Ile de France et Picardie. Nos déménageurs vous garantissent un service de qualité avec le chargement précautionneux de vos biens jusqu'au déchargement.
+					Les déménageurs professionnels de Road Runners,  vous accompagnent pour vos déménagements dans toute la région Ile de France et Picardie. Nos déménageurs vous garantissent un service de qualité avec le chargement précautionneux de vos biens jusqu'au déchargement.
+				</p>
+				<p className="pt-2">
+					Notre équipe de déménageurs vous accompagnent tout au long de votre déménagement. Soucieux de la qualité de nos services, nous pouvons mettre à votre dispositions les différents outils nécessaires à la sécurisation de vos biens. 
 				</p>
 				<div className="flex  mt-5">
 					<div className="wrapper">
   						<div className="link_wrapper">
-  						  	<Link href="/contact#form">Demande de Devis</Link>
+  						  	<Link href="/contact#form">Devis Express</Link>
   						  	<div className="icon">
   						  	  	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
   						  	  	  	<path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>

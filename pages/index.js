@@ -6,6 +6,8 @@ import Route from '../assets/routes.webp'
 import Map from "../assets/map.webp"
 import Link from "next/link";
 import Fiat from "../assets/fiat.jpg"
+import IconTelephone from "../assets/icons/tel.webp"
+import IconMail from "../assets/icons/mail.webp"
 import Demenagement from "../assets/demenageurs.webp"
 import Form from "../components/form"
 import Iframe from "../components/iframe";
@@ -56,7 +58,7 @@ export default function Accueil() {
 				<div className="flex md:justify-center mt-5">
 					<div className="wrapper">
   						<div className="link_wrapper">
-  						  	<Link href="/#form">Demande de Devis</Link>
+  						  	<Link href="/#form">Devis Express</Link>
   						  	<div className="icon">
   						  	  	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
   						  	  	  	<path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
@@ -110,7 +112,7 @@ export default function Accueil() {
 				<div className="flex my-5">
 					<div className="wrapper">
   						<div className="link_wrapper">
-  						  	<Link href="/#form">Demande de Devis</Link>
+  						  	<Link href="/#form">Devis Express</Link>
   						  	<div className="icon">
   						  	  	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
   						  	  	  	<path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
@@ -142,12 +144,22 @@ export default function Accueil() {
 				<footer>
     				<div className=" text-center text-white">
     				    <div className="px-6 pt-6">
-    				      <div className="mb-4 text-lg sm:text-2xl md:text-3xl lg:text-4xl  flex justify-center">
-    				          rrunners.transport@gmail.com
-    				      </div>
-    				      <div className="mb-4 text-base text-xl  lg:text-2xl flex justify-center">
-						  	07.87.46.07.44
-    				      </div>
+						<div className="mb-4 text-lg sm:text-2xl items-center md:text-3xl lg:text-4xl  flex justify-center">
+			  				<Image
+                			    src={IconMail}
+                			    alt="tel"
+                			    className="md:h-6 h-5 w-auto mr-1 mt-1 md:mt-3 "
+                			/>
+          	  				<div>: rrunners.transport@gmail.com</div>
+          					</div>
+          					<div className="mb-4 text-base text-xl lg:text-2xl flex justify-center items-center">
+            				  	<Image
+            				    	src={IconTelephone}
+            				    	alt="mail"
+            				    	className="h-4 mt-1 w-auto lg:h-5 mr-1  "
+								/>
+            				  	<div > : 07.87.46.07.44</div>
+          					</div>
     				    </div>
     				    <div
     				      className="p-4 text-sm text-center">

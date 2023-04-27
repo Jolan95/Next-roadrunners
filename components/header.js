@@ -27,21 +27,21 @@ export default function Header(props) {
             <svg  className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg>
           </button>
           <div  className={(!displayMenu? "hidden" : "")+" w-full md:block md:w-auto"} id="navbar-multi-level">
-            <ul  className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white ">
+            <ul  className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-7 lg:space-x-9 md:mt-0 md:border-0 md:bg-white ">
               <li>
-                <Link href="/"  className={(active === "accueil"? " bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent")+"block py-2 pl-3 pr-4 rounded md:p-0"} aria-current="page">Accueil</Link>
+                <Link href="/"  className={(active === "accueil"? " bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent")+"block py-2 pl-2 lg:pl-3 pr-4 rounded md:p-0 lg:font-bold lg:text-lg"} aria-current="page">Accueil</Link>
               </li>
               <li className="mt-4 md:mt-0">
-                <Link href="/transport"  className={(active === "transport"? " bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent")+"block py-2 pl-3 pr-4  rounded md:p-0"} >Transport</Link>
+                <Link href="/transport"  className={(active === "transport"? " bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent")+"block py-2 pl-2 lg:pl-3 pr-4  rounded md:p-0  lg:font-bold lg:text-lg"} >Transport</Link>
               </li>
               <li className="mt-4 md:mt-0">
-                <Link href="/area"  className={(active === "zone" ?" bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent")+"block py-2 pl-3 pr-4  rounded md:p-0"}>Zone d'intervention</Link>
+                <Link href="/area"  className={(active === "zone" ?" bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent")+"block py-2 pl-2 lg:pl-3 pr-4  rounded md:p-0 lg:font-bold lg:text-lg "}>Zone d'intervention</Link>
               </li>
               <li className="mt-4 md:mt-0">
-                <Link href="/demenagement"  className={(active === "demenagement"? " bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent")+"block py-2 pl-3 pr-4  rounded md:p-0"}>Déménagement</Link>
+                <Link href="/demenagement"  className={(active === "demenagement"? " bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent")+"block py-2 pl-2 lg:pl-3 pr-4 rounded md:p-0  lg:font-bold lg:text-lg"}>Déménagement</Link>
               </li>
               <li className="mt-4 md:mt-0">
-                <Link href="/contact"  className={(active === "devis"? " bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent")+"block py-2 pl-3 pr-4 rounded md:p-0"}>Contact</Link>
+                <Link href="/contact"  className={(active === "devis"? " bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent")+"block py-2 pl-2 lg:pl-3 pr-4 rounded md:p-0  lg:font-bold lg:text-lg"}>Contact</Link>
               </li>
             </ul>
           </div>

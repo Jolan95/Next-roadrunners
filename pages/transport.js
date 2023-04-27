@@ -55,7 +55,7 @@ export default function Transport() {
         <div className='bg-slate-800 text-center text-white px-4 py-7 mt-10 text-md md:text-lg'>
             Vous avez besoin d'un transport de qualité ? Effectuez un devis ou demandez une prise de contact
             <div className="flex justify-center mt-3">
-                <Link href="/contact#form"><button className="button-devis text-lg">Demande de devis</button></Link>
+                <Link href="/contact#form"><button className="button-devis text-lg">Devis Express</button></Link>
             </div>
         </div>
         <div className="lg:grid lg:grid-cols-2 max-w-screen-xl mb-3 md:mb-0 mx-7 mt-14 lg:mx-10 xl:mx-auto pb-14 ">
