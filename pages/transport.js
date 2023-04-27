@@ -18,12 +18,12 @@ export default function Transport() {
   <title>Road Runners - Transports</title>
   <link
     rel="canonical"
-    href="https://road-runners.fr/matieres-dangereuses"
+    href="https://road-runners.fr/transport"
     key="canonical"
   />
   <meta
   name="description"
-  content="Road Runners assure vos transports stadards et express dans toute la France"
+  content="Road Runners, entreprise professionnelle de transport assure vos transports de marchandises Stadards et Express dans toute la France."
   />
   <meta property="og:title" content="Road Runners" />
   <meta

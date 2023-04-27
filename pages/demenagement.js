@@ -22,12 +22,12 @@ export default function Demenagement() {
             />
             <meta
             name="description"
-            content="Road Runners effectue vos déménagements dans toute la région Ile de France et Picardie"
+			content="Road Runners effectue vos déménagements avec une équipe spécialisé et professionnelle dans toute la région Ile de France et Picardie."
             />
             <meta property="og:title" content="Road Runners - Demenagement" />
             <meta
               property="og:description"
-              content="Road Runners effectue vos déménagements dans toute la région Ile de France et Picardie"
+              content="Road Runners effectue vos déménagements avec une équipe spécialisé et professionnelle dans toute la région Ile de France et Picardie."
             />
         </Head>
         <Header active="demenagement"></Header>

@@ -29,7 +29,7 @@ export default function MatieresDangereuse() {
   />
   <meta
   name="description"
-  content="Road Runners assure vos transports de matières dangereuses dans toute la France"
+  content="Road Runners assure tous vos transports dans toute la France ainsi que le transport de matières classées dangereuses."
   />
   <meta property="og:title" content="Road Runners" />
   <meta

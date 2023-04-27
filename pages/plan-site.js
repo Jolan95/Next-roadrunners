@@ -1,9 +1,22 @@
 import Header from '../components/header'
 import Footer from '../components/footer'
 import Link from 'next/link'
+import Head from 'next/head'
 export default function PlanSite() {
   return (
     <>
+    	<Head>
+  <title>Road Runners - Plan du site</title>
+  <link
+    rel="canonical"
+    href="https://road-runners.fr/plan-site"
+    key="canonical"
+  />
+  <meta
+  name="description"
+  content="Road Runners, plan du site : Accueil - Transport - Zone d'intervention - Demenagement - Contact - Matieres Dangereuses - Mentions Legales - Plan du Site."
+  />
+  </Head>
         <Header></Header>
         <div className="mx-4 max-w-screen-xl  py-6 plan-site">
             <h1 className='text-xl font-bold mb-5 lora'>Plan du Site</h1>

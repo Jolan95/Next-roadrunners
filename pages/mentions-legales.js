@@ -4,6 +4,18 @@ import Footer from '../components/footer'
 export default function MentionsLégales() {
   return (
     <>
+          <Head>
+            <title>Road Runners - Mentions légales</title>
+            <link
+              rel="canonical"
+              href="https://road-runners.fr/mentions-legales"
+              key="canonical"
+            />
+            <meta
+            name="description"
+            content="Mentions légales de Road Runners, entreprise de transport implanter à Saint Martin du Terte (95)."
+            />
+          </Head>
         <Header></Header>
         <div className='max-w-screen-xl  lg:mx-auto mx-4 py-6'>
 

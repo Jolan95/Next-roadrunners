@@ -27,12 +27,12 @@ export default function Accueil() {
   			/>
   			<meta
   				name="description"
-  				content="Road Runners, la clé d'un transport réussi ! Transporteur routier en Ile de France et Picardie."
+  				content="Road Runners, la clé d'un transport réussi ! Implanté en Ile de France, nous assurons vos transports Réguliers et Express dans toute la France."
   			/>
   			<meta property="og:title" content="Road Runners" />
   			<meta
   			  	property="og:description"
-  			  	content="Road Runners, la clé d'un transport réussi! Transporteur routier en Ile de France et Picardie."
+  			  	content="Road Runners, la clé d'un transport réussi! Transporteur routier en Ile de France et Picardie, Road Runners réalise vos transports Réguliers et Express ainsi que vos déménagements."
   			/>
   		</Head>
 		<Header active="accueil"></Header>

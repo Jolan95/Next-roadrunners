@@ -22,7 +22,7 @@ export default function Devis() {
         />
         <meta
         name="description"
-        content="Road Runners vous recontacte le plus rapidement possible pour repondre à vos requètes ou effectuer un devis gratuit"
+        content="Road Runners, prise de contact ou devis express gratuit pour des transport dans toute la France."
         />
         <meta property="og:title" content="Road Runners - Contact" />
         <meta
@@ -36,9 +36,9 @@ export default function Devis() {
             <div className="lg:grid lg:grid-cols-2 max-w-screen-xl mx-auto mx-7 md:mx-10 xl:mx-auto pb-7 lg:py-7 text-md md:text-lg ">
                 <div>
                     <div className='border-2 border-black p-5 mb-5 mt-7 lg:mt-0'>
-                        <h1 className='text-center text-xl color-logo font-semibold underline'>
+                        <h2 className='text-center text-xl color-logo font-semibold underline'>
                         ROAD RUNNERS
-                        </h1>
+                        </h2>
                         <div>
                             <div className='flex items-center'>
                                 <Image
