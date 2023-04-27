@@ -15,6 +15,7 @@ import Image from "next/image";
 import Head from "next/head";
 import FirstSection from "../components/first-section";
 
+
 export default function Accueil() {
   return (
 	<>
