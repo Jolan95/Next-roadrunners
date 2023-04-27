@@ -16,7 +16,7 @@ export default function MentionsLégales() {
             France<br/>
 
             Tél. : +33 6 68 58 43 76<br/>
-            www.road-runners.netlify.app<br/>
+            www.road-runners.fr<br/>
             rrunners.transport@gmail.com<br/>
 
             ROAD RUNNERS possède un capital de 2 000 €<br/>

@@ -17,7 +17,7 @@ export default function Devis() {
         <title>Road Runners - Contact</title>
         <link
           rel="canonical"
-          href="https://road-runners-transport.netlify.app/contact"
+          href="https://road-runners.fr/contact"
           key="canonical"
         />
         <meta

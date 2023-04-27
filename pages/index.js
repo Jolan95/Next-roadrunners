@@ -22,7 +22,7 @@ export default function Accueil() {
   			<title>Road Runners</title>
   			<link
   			  	rel="canonical"
-  			  	href="https://road-runners-transport.netlify.app/"
+  			  	href="https://road-runners.fr/"
   			  	key="canonical"
   			/>
   			<meta

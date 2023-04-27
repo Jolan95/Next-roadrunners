@@ -16,13 +16,13 @@ export default function PlanSite() {
                 <Link href="/transport"><span>Transport</span></Link>
             </div>
             <div className='wrapper-link-plan'>
-                <Link href="/zone-intervention"><span>Zone d'intervention</span></Link>
+                <Link href="/area"><span>Zone d'intervention</span></Link>
             </div>
             <div className='wrapper-link-plan'>
                 <Link href="/demenagement"><span>Déménagement</span></Link>
             </div>
             <div className='wrapper-link-plan'>
-                <Link href="/devis"><span>Contact</span></Link>
+                <Link href="/contact"><span>Contact</span></Link>
             </div>
             <div className='wrapper-link-plan'>
                 <Link href="/matieres-dangereuses"><span>Matières dangereuses</span></Link>

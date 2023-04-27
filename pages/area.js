@@ -20,7 +20,7 @@ export default function Area() {
         <title>Road Runners - Zone d'acheminement</title>
         <link
           rel="canonical"
-          href="https://road-runners-transport.netlify.app/area"
+          href="https://road-runners.fr/area"
           key="canonical"
         />
         <meta

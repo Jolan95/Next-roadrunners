@@ -17,7 +17,7 @@ export default function Demenagement() {
             <title>Road Runners - Demenagement</title>
             <link
               rel="canonical"
-              href="https://road-runners-transport.netlify.app/demenagement"
+              href="https://road-runners.fr/demenagement"
               key="canonical"
             />
             <meta

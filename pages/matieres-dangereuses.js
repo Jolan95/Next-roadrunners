@@ -24,7 +24,7 @@ export default function MatieresDangereuse() {
   <title>Road Runners - Matières dangereuses</title>
   <link
     rel="canonical"
-    href="https://road-runners-transport.netlify.app/matieres-dangereuses"
+    href="https://road-runners.fr/matieres-dangereuses"
     key="canonical"
   />
   <meta
