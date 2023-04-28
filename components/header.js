@@ -28,19 +28,19 @@ export default function Header(props) {
           </button>
           <div  className={(!displayMenu? "hidden" : "")+" w-full md:block md:w-auto"} id="navbar-multi-level">
             <ul  className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-7 lg:space-x-9 md:mt-0 md:border-0 md:bg-white ">
-              <li>
+              <li className="">
                 <Link href="/"  className={(active === "accueil"? " bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent")+"block py-2 pl-2 lg:pl-3 pr-4 rounded md:p-0 lg:font-bold lg:text-lg"} aria-current="page">Accueil</Link>
               </li>
-              <li className="mt-4 md:mt-0">
+              <li className="mt-4 md:mt-0 ">
                 <Link href="/transport"  className={(active === "transport"? " bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent")+"block py-2 pl-2 lg:pl-3 pr-4  rounded md:p-0  lg:font-bold lg:text-lg"} >Transport</Link>
               </li>
               <li className="mt-4 md:mt-0">
                 <Link href="/area"  className={(active === "zone" ?" bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent")+"block py-2 pl-2 lg:pl-3 pr-4  rounded md:p-0 lg:font-bold lg:text-lg "}>Zone d'intervention</Link>
               </li>
-              <li className="mt-4 md:mt-0">
+              <li className="mt-4 md:mt-0 ">
                 <Link href="/demenagement"  className={(active === "demenagement"? " bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent")+"block py-2 pl-2 lg:pl-3 pr-4 rounded md:p-0  lg:font-bold lg:text-lg"}>Déménagement</Link>
               </li>
-              <li className="mt-4 md:mt-0">
+              <li className="mt-4 md:mt-0 ">
                 <Link href="/contact"  className={(active === "devis"? " bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent")+"block py-2 pl-2 lg:pl-3 pr-4 rounded md:p-0  lg:font-bold lg:text-lg"}>Contact</Link>
               </li>
             </ul>
