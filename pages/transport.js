@@ -4,6 +4,7 @@ import BgChargement from '../assets/chargement.webp'
 import Footer from '../components/footer'
 import Camion from "../assets/camion-route.webp"
 import Camion2 from "../assets/camion2.webp"
+import Van from "../assets/van.jpg"
 import Link from 'next/link'
 import Bandeau from '../components/bandeau'
 import AlertDangerous from '../components/alert-dangerous'
@@ -32,7 +33,7 @@ export default function Transport() {
   />
   </Head>
         <Header active="transport"></Header>
-        <FirstSection bg={Camion} title="TRANSPORT" subtitle="La clé d'un transport réussi"></FirstSection>
+        <FirstSection bg={Van} title="TRANSPORT" subtitle="La clé d'un transport réussi"></FirstSection>
         <div className="lg:grid lg:grid-cols-2 max-w-screen-xl mb-3 md:mb-0 mx-7 mt-14 lg:mx-10 xl:mx-auto flex items-center">
 	  	    <div className="  text-md md:text-lg lg:px-7">
 	  	    	<h2 className=" text-xl md:text-2xl  font-bold mb-4">TRANSPORT STANDARD</h2>
