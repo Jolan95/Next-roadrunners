@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../components/header'
-import Demenageurs from "../assets/demenageurs.webp"
+import Demenageurs from "../assets/demenagement.jpg"
 import Footer from '../components/footer'
 import Carton from "../assets/demenagement-carton.webp"
 import Link from 'next/link'
