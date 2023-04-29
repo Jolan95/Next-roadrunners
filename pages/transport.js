@@ -11,6 +11,7 @@ import AlertDangerous from '../components/alert-dangerous'
 import Image from 'next/image'
 import Head from 'next/head'
 import FirstSection from '../components/first-section'
+import Check from "../assets/check.png"
 
 export default function Transport() {
   return (
@@ -44,6 +45,32 @@ export default function Transport() {
 		    	<p className='pt-1'> 
           Afin de gagner en sérénité, confiez à notre équipe expérimentée la prise en charge de vos expéditions et  bénéficiez d’une solution de transport sur mesure pour planifier l’envoi de vos marchandises en toute sécurité.
           </p>
+          <ul className='mt-1'>
+            <li className='listing'>
+              <Image
+                src={Check}
+                alt="check"
+                className='check'
+              />
+              Interlocuteur unique
+            </li>
+            <li className='listing'>
+              <Image
+                src={Check}
+                alt="check"
+                className='check'
+              />
+              Etude et acheminements sur mesure
+              </li>
+            <li className='listing'>
+              <Image
+                src={Check}
+                alt="check"
+                className='check'
+              />
+              Tracking des informations en temps réél
+            </li>
+          </ul>
 	  	    </div>
 	      	<div className="hidden lg:flex items-center  xl:px-7">
               <Image
@@ -75,6 +102,9 @@ export default function Transport() {
 		        	<p className='pt-1'> 
                Nos Runners vous apporterons,  une solution claire, efficace et adaptée à vos contraintes tout en garantissant l’intégrité des marchandises transportées.
                </p>
+               <p className='pt-1'>
+                Notre équipe propose un départ immédiat de nos Runners afin de vous garantir un délais réduit de vos acheminements.
+              </p>
 	  	        </div>
             </div>
 	    </div>
