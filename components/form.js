@@ -49,14 +49,13 @@ export default function Form(props) {
     }
 
   return (
-<>
-        
+<>    
         <span className={' block  rounded w-fit mt-2 '+(alert.type === null || loading? "hidden  p-3 text-white " : (alert.type === "ERROR"? "bg-red-500 text-white p-3" : " text-"+props.color+" pr-3 md:pr-10"))}>{alert.message}</span>
    <div className={(alert.type !== "SUCCESS"? "block" : "hidden") + ' wrapper-form text-base'}>
         <form  onSubmit={(e) => {handleSubmit(e)}}> 
             <div className='mt-3'>   
                 <div>Nom*</div>
-                <input  className='text-black w-80 h-8 rounded p-2 text-sm' type="name" required onChange={(e)=> {setName(e.target.value)}} placeholder="Nom complet / Société"></input>
+                <input  className='text-black w-80 h-8 rounded p-2 text-sm' type="text" required onChange={(e)=> {setName(e.target.value)}} placeholder="Nom complet / Société"></input>
             </div>
             <div className='mt-2'>
                 <div>Telephone*</div>
@@ -68,7 +67,7 @@ export default function Form(props) {
             </div>
             <div className='my-2  '>
                 <div>Je suis un :</div>
-                <input type="radio" checked={statut == "Professionnel"? true : false} onChange={(e)=> {setStatut("Professionnel")}} name="statut" value="ptofessionnel"/><label className='pl-1'>Professionnel</label>
+                <input type="radio" checked={statut == "Professionnel"? true : false} onChange={(e)=> {setStatut("Professionnel")}} name="statut" value="professionnel"/><label className='pl-1'>Professionnel</label>
                 <input type="radio" checked={statut == "Particulier"? true : false} className='ml-2'  onChange={(e)=> {setStatut("Particulier")}} name="statut" value="particulier"/><label className='pl-1'>Particulier</label>
             </div>
             <div className='mt-2'>

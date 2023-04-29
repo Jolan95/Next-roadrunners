@@ -32,7 +32,7 @@ export default function Transport() {
   />
   </Head>
         <Header active="transport"></Header>
-        <FirstSection bg={Camion} title="TRANSPORT" subtitle="La clé d'un transport réussi"></FirstSection>
+        <FirstSection bg={Camion2} title="TRANSPORT" subtitle="La clé d'un transport réussi"></FirstSection>
         <div className="lg:grid lg:grid-cols-2 max-w-screen-xl mb-3 md:mb-0 mx-7 mt-14 lg:mx-10 xl:mx-auto flex items-center">
 	  	    <div className="  text-md md:text-lg lg:px-7">
 	  	    	<h2 className=" text-xl md:text-2xl  font-bold mb-4">TRANSPORT STANDARD</h2>
@@ -61,7 +61,7 @@ export default function Transport() {
         <div className="lg:grid lg:grid-cols-2 max-w-screen-xl mb-3 md:mb-0 mx-7 mt-14 lg:mx-10 xl:mx-auto pb-14 ">
 	      	<div className="hidden lg:flex items-center xl:px-7">
               <Image
-                src={Camion2}
+                src={Camion}
                 alt="camion"
                 />
 	      	</div>
