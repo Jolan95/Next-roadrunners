@@ -41,7 +41,7 @@ export default function Header(props) {
                 <Link href="/demenagement"  className={(active === "demenagement"? " bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent")+"block py-2 pl-2 lg:pl-3 pr-4 rounded md:p-0  lg:font-bold lg:text-lg"}>Déménagement</Link>
               </li>
               <li className="mt-4 md:mt-0 ">
-                <Link href="/contact"  className={(active === "devis"? " bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent")+"block py-2 pl-2 lg:pl-3 pr-4 rounded md:p-0  lg:font-bold lg:text-lg"}>Contact</Link>
+                <Link href="/contact"  className={(active === "devis"? " bg-blue-700 md:bg-transparent md:text-blue-700 md:dark:text-blue-500" : "text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent")+"block py-2 pl-2 lg:pl-3 pr-4 rounded md:p-0  lg:font-bold lg:text-lg"}>Devis</Link>
               </li>
             </ul>
           </div>

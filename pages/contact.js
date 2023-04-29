@@ -32,7 +32,7 @@ export default function Devis() {
     </Head>
         <Header active="devis"></Header>
         <div className='p-5 sm:p-10' id="form">
-            <h1 className='text-2xl font-semibold text-center py-0 mg:py-3 kanit'>Contact</h1>
+            <h1 className='text-2xl font-semibold text-center py-0 mg:py-3 kanit'>DEVIS</h1>
             <div className="lg:grid lg:grid-cols-2 max-w-screen-xl mx-auto mx-7 md:mx-10 xl:mx-auto pb-7 lg:py-7 text-md md:text-lg ">
                 <div>
                     <div className='border-2 border-black p-5 mb-5 mt-7 lg:mt-0'>
@@ -74,7 +74,7 @@ export default function Devis() {
                     </div>
                 </div>
                 <div  className='wrapper-form order-first '>
-                    <h2 className='text-xl font-semibold underline'>DEVIS EXPRESS</h2>
+                    {/* <h2 className='text-xl font-semibold underline'>DEVIS EXPRESS</h2> */}
                     <Form color="black">
                     </Form>
                 </div>
