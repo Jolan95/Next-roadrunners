@@ -13,14 +13,13 @@ header img {
 .kanit{
   font-family: 'Kanit', sans-serif;
   font-weight : 800;
-  color : white
-  /* background-image:  linear-gradient(90deg, rgba(14,181,225,1) 0%, rgba(0,111,187,1) 100%);
+   background-image:  linear-gradient(90deg, rgba(14,181,225,1) 0%, rgba(0,111,187,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
   background-clip: text;
-  -moz-text-fill-color: transparent; */
+  -moz-text-fill-color: transparent; 
 }
 .section-presentation{
   height : calc(100vh - 120px);
