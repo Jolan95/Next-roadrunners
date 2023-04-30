@@ -4,14 +4,14 @@ import BgChargement from '../assets/chargement.webp'
 import Footer from '../components/footer'
 import Camion from "../assets/camion-route.webp"
 import Camion2 from "../assets/camion2.webp"
-import Van from "../assets/van.jpg"
+import Van from "../assets/van.webp"
 import Link from 'next/link'
 import Bandeau from '../components/bandeau'
 import AlertDangerous from '../components/alert-dangerous'
 import Image from 'next/image'
 import Head from 'next/head'
 import FirstSection from '../components/first-section'
-import Check from "../assets/check.png"
+import Check from "../assets/check.webp"
 
 export default function Transport() {
   return (
