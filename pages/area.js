@@ -40,12 +40,12 @@ export default function Area() {
 	  		<div className="  text-md md:text-lg lg:px-7">
 	  			<h2 className=" text-xl md:text-2xl  font-bold mb-4">Transport dans toute la France</h2>
 				<p> 
-				Fort d'une grande connaissance du réseau routier Francilien et Picard, nos Runners garantissent une fiabilité sans faille et une optimisation de vos transport en Ile de France et en Picardie.				</p>
+				Fort d'une grande connaissance du réseau routier Francilien et Picard, nos Runners garantissent une fiabilité sans faille et une optimisation de vos transports en Ile de France et en Picardie.				</p>
 				<h3 className='font-semibold text-lg md:text-xl mt-2'>
 				  	Transport express et standard
 				</h3>
 				<p className=''> 
-				Pour vos transports standard et express, vous pouvez nous confier vos courses expéditions en toute confiance et ce dans toute la France.
+				Pour vos transports standard et express, vous pouvez nous confier expéditions en toute confiance et ce dans toute la France.
 				</p>
 		  		<h3 className='font-semibold text-lg md:text-xl mt-2'>
 		  		Déménagements

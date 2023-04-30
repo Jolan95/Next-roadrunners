@@ -8,7 +8,7 @@ import Link from "next/link";
 import Fiat from "../assets/fiat.jpg"
 import IconTelephone from "../assets/icons/tel-white.webp"
 import IconMail from "../assets/icons/mail-white.webp"
-import Demenagement from "../assets/demenageurs.webp"
+import Area from "../assets/route.jpg"
 import Form from "../components/form"
 import Iframe from "../components/iframe";
 import Image from "next/image";
@@ -42,7 +42,7 @@ export default function Accueil() {
 		  	<div className=" md:text-center text-md md:text-lg">
 		  		<h2 className=" text-xl md:text-2xl  font-bold mb-4">TRANSPORT PROFESSIONNEL</h2>
 				<p> 
-					Présents à proximité des grandes zones économiques et des sites industriels, Road Runners et son équipe de Runners professionnel, proposent des solutions de transport routier fiables et adaptées à vos besoins dans toute la région Ile de France et Picardie.
+					Présents à proximité des grandes zones économiques et des sites industriels, Road Runners et son équipe de Runners professionnels, proposent des solutions de transport routier fiables et adaptées à vos besoins dans toute la région Ile de France et Picardie.
 				</p>
 				<h3 className="mt-4 mb-1  font-semibold text-lg md:text-xl">
 					Transport Standard
@@ -85,7 +85,7 @@ export default function Accueil() {
 			<div className="lg:grid lg:grid-cols-2 max-w-screen-xl mx-auto mx-7 py-7 lg:py-16  md:mx-10 xl:mx-auto text-md md:text-lg">
 				<div className="hidden lg:flex justify-center items-center">
     	  			<Image
-    	        	    src={Map}
+    	        	    src={Area}
     	        	    alt="map"
     	        	    className="h-auto xl:w-9/12 lg:w-11/12"    
     	        	/>
@@ -96,9 +96,9 @@ export default function Accueil() {
 						<div className=""> 
 							<h3 className="mt-4 mb-1 font-semibold text-lg md:text-xl ">Ile de France et Picardie</h3>
 							Basé en Ile de France, 
-					  		Road Runners est spécialisé dans le transport routier sur la région Ile de France et Picardie. Vous pouvez nous y confier vos courses régulières, vos courses Express ou même vos déménagements.<br/>
+					  		Road Runners est spécialisé dans le transport routier dans la région Parisienne et Picardie. Confiez nous vos expéditions et même vos déménagements en toute confiance.<br/>
 							<h3 className="mt-4 mb-1 font-semibold text-lg md:text-xl">Transport National</h3>
-							Besoin d'un transport de marchandise en France métopolitaine? Road Runners assure vos courses Express ou régulières dans toutes l'héxagone.
+							Besoin d'un transport de marchandise en France métopolitaine? Road Runners assure vos expréditions dans toutes l'héxagone.
 						</div>
 					</div>
 				</div>

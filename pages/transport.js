@@ -62,14 +62,7 @@ export default function Transport() {
               />
               Etude et acheminements sur mesure
               </li>
-            <li className='listing'>
-              <Image
-                src={Check}
-                alt="check"
-                className='check'
-              />
-              Tracking des informations en temps réél
-            </li>
+
           </ul>
 	  	    </div>
 	      	<div className="hidden lg:flex items-center  xl:px-7">
@@ -77,7 +70,7 @@ export default function Transport() {
                 src={BgChargement}
                 alt="chargement"
                 className='image-reverse'
-                   />
+                />
 	      	</div>
 	    </div>
         <div className='bg-slate-800 text-center text-white px-4 py-7 mt-10 text-md md:text-lg'>
@@ -105,6 +98,24 @@ export default function Transport() {
                <p className='pt-1'>
                 Notre équipe propose un départ immédiat de nos Runners afin de vous garantir un délais réduit de vos acheminements.
               </p>
+              <ul className='mt-1'>
+            <li className='listing'>
+              <Image
+                src={Check}
+                alt="check"
+                className='check'
+              />
+              Prise en charge immédiate de vos produits
+            </li>
+            <li className='listing'>
+              <Image
+                src={Check}
+                alt="check"
+                className='check'
+              />
+              Transport adapté et responsable
+              </li>
+          </ul>
 	  	        </div>
             </div>
 	    </div>
