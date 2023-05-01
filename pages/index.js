@@ -3,7 +3,7 @@ import truckMercedes from "../assets/mercedes-blanc.webp";
 import Bandeau from "../components/bandeau.js";
 import AlertDangerous from "../components/alert-dangerous";
 import Route from '../assets/routes.webp'
-import Map from "../assets/map.webp"
+
 import Link from "next/link";
 import Fiat from "../assets/fiat.webp"
 import IconTelephone from "../assets/icons/tel-white.webp"
@@ -98,7 +98,7 @@ export default function Accueil() {
 							Basé en Ile de France, 
 					  		Road Runners est spécialisé dans le transport routier dans la région Parisienne et Picardie. Confiez nous vos expéditions et même vos déménagements en toute confiance.<br/>
 							<h3 className="mt-4 mb-1 font-semibold text-lg md:text-xl">Transport National</h3>
-							Besoin d'un transport de marchandise en France métopolitaine? Road Runners assure vos expréditions dans toutes l'héxagone.
+							Besoin d'un transport de marchandise en France métopolitaine? Road Runners assure vos expréditions Express ou régulières dans toutes l'héxagone.
 						</div>
 					</div>
 				</div>
