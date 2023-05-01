@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../components/header'
 import BgChargement from '../assets/chargement.webp'
 import Footer from '../components/footer'
-import Camion from "../assets/camion-route.webp"
+
 import Camion2 from "../assets/camion2.webp"
 import Van from "../assets/van.webp"
 import Link from 'next/link'
