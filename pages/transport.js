@@ -113,7 +113,7 @@ export default function Transport() {
                 alt="check"
                 className='check'
               />
-              Transport adapté et responsable
+              Transport adapté à vos besoins
               </li>
           </ul>
 	  	        </div>
